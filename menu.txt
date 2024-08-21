@@ -1,8 +1,0 @@
-Inventario:
-Camiseta: 50
-Pantalón: 30
-Zapatos: 20 
-Inventario: 
-Camiseta: 40
-Pantalón: 25
-Zapatos: 20 

@@ -1,3 +1,4 @@
+
 class SistemaInventario:
     def __init__(self):
         self.inventario = {}
@@ -27,18 +28,3 @@ class SistemaInventario:
         print("Inventario:")
         for nombre, cantidad in self.inventario.items():
             print(f"{nombre}: {cantidad}")
-
-
-if __name__ == "__main__":
-    sistema = SistemaInventario()
-
-    sistema.agregar_producto("Camiseta", 50)
-    sistema.agregar_producto("Pantalón", 30)
-    sistema.agregar_producto("Zapatos", 20)
-
-    sistema.mostrar_inventario()
-
-    sistema.eliminar_producto("Camiseta", 10)
-    sistema.actualizar_inventario("Pantalón", 25)
-
-    sistema.mostrar_inventario()
